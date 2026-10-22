@@ -1,0 +1,29 @@
+.venv/
+**/__pycache__/
+*.py[cod]
+
+# Local databases and generated patient reports
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+**/reports/
+*.pdf
+
+# Local data and generated model artifacts
+*.csv
+*.joblib
+!CARDIAC_ARRHYTHMIA_UPDATED/ensemble_model.joblib
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+**/.venv/
+venv/
